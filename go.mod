@@ -1,4 +1,4 @@
-module awesomeTestSolid
+module proteGo
 
 go 1.20
 

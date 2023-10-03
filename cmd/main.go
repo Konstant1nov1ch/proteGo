@@ -1,13 +1,13 @@
 package main
 
 import (
-	"awesomeTestSolid/internal/base"
-	"awesomeTestSolid/internal/model"
 	"bufio"
 	"fmt"
 	"github.com/ichiban/prolog"
 	"log"
 	"os"
+	"proteGo/internal/base"
+	"proteGo/internal/model"
 	"strings"
 )
 
