@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
 	"fmt"
 	"github.com/ichiban/prolog"
 	"log"
@@ -77,19 +78,21 @@ func main() {
 func runQuery(result interface{}, p *prolog.Interpreter, query string) {
 	sols, err := p.Query(query)
 	if err != nil {
-		log.Fatalf("%v: \n", err)
+		log.Fatalf("%v\n", err)
 		return
 	}
-
 	for sols.Next() {
 		if err := sols.Scan(result); err != nil {
-			log.Fatalf("%v: \n", err)
+			log.Fatalf("%v\n", err)
 			continue
 		}
-		fmt.Printf("Result: %v\n", result)
+		jsonBytes, _ := json.Marshal(result)
+		str := string(jsonBytes)
+		str = strings.Trim(str, "{")
+		str = strings.Trim(str, "}")
+		fmt.Println(str)
 	}
-
 	if err := sols.Err(); err != nil {
-		log.Fatalf("%v: \n", err)
+		log.Fatalf("%v\n", err)
 	}
 }

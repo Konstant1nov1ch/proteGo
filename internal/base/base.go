@@ -78,8 +78,9 @@ enemy(enderman, player).
 who_is_stronger(X, Y, Stronger) :- damage(X, XDamage), damage(Y, YDamage),
     (XDamage > YDamage -> Stronger = X ; Stronger = Y).
 
-can_attack(X, 'да') :- mob(X), damage(X, Damage), Damage > 0.
+can_attack(X, 'да') :- mob(X), damage(X, Damage), Damage > 0, !.
 can_attack(_, 'нет').
+
 
 can_explode(X, да) :- mob(X), X == creeper, !.
 can_explode(_, нет).
@@ -91,13 +92,14 @@ can_teleport(X, да) :- mob(X), X == enderman, !.
 can_teleport(_, нет).
 
 
-is_friendly(X, Y, 'да') :- friend(X, Y).
-is_friendly(Y, X, 'да') :- friend(X, Y).
+is_friendly(X, Y, 'да') :- friend(X, Y), !.
+is_friendly(Y, X, 'да') :- friend(X, Y), !.
 is_friendly(_, _, 'нет').
 
-is_enemy(X, Y, 'да') :- enemy(X, Y).
-is_enemy(Y, X, 'да') :- enemy(X, Y).
+is_enemy(X, Y, 'да') :- enemy(X, Y), !.
+is_enemy(Y, X, 'да') :- enemy(X, Y), !.
 is_enemy(_, _, 'нет').
+
 `); err != nil {
 		log.Fatalf("%v: \n", err)
 		return nil, err
