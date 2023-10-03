@@ -1,8 +1,8 @@
 package base
 
 import (
-	"fmt"
 	"github.com/ichiban/prolog"
+	"log"
 	"os"
 )
 
@@ -99,7 +99,7 @@ is_enemy(X, Y, 'да') :- enemy(X, Y).
 is_enemy(Y, X, 'да') :- enemy(X, Y).
 is_enemy(_, _, 'нет').
 `); err != nil {
-		fmt.Println(err)
+		log.Fatalf("%v: \n", err)
 		return nil, err
 	}
 	return p, nil

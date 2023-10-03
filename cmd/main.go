@@ -6,6 +6,7 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/ichiban/prolog"
+	"log"
 	"os"
 	"strings"
 )
@@ -13,7 +14,7 @@ import (
 func main() {
 	p, err := base.MakeNewBase()
 	if err != nil {
-		fmt.Println(err)
+		log.Fatalf("%v: \n", err)
 		return
 	}
 
@@ -76,19 +77,19 @@ func main() {
 func runQuery(result interface{}, p *prolog.Interpreter, query string) {
 	sols, err := p.Query(query)
 	if err != nil {
-		fmt.Println(err)
+		log.Fatalf("%v: \n", err)
 		return
 	}
 
 	for sols.Next() {
 		if err := sols.Scan(result); err != nil {
-			fmt.Println(err)
+			log.Fatalf("%v: \n", err)
 			continue
 		}
 		fmt.Printf("Result: %v\n", result)
 	}
 
 	if err := sols.Err(); err != nil {
-		fmt.Println(err)
+		log.Fatalf("%v: \n", err)
 	}
 }
