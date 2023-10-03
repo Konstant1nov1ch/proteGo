@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/konstantin/ontologies/2023/8/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/konstantin/ontologies/2023/8/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/konstantin/ontologies/2023/8/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-3" IRI="http://www.semanticweb.org/konstantin/ontologies/2023/8/untitled-ontology-3#"/>
+    <Declaration>
+        <Class IRI="#Безобидное"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Биом"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Босс"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Водянной"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Враждебный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Действие"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Дружелюбный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Игрок"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Лесной"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Майнкрафт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Моб"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Нуб"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Обидное"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Обычный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Опасный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Подземный"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Про"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Снежный"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Взорвать"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#МожетУбить"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Уметь"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Уметь_бить"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ад"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Бегать"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Бить"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Взрываться"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Гаст"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джунгли"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дракон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ендермен"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Житель"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Зимний_лес"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Зомби"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Иссушитель"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Корова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Край"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Крипер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Курица"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ледник"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Летать"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ничего"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Обычный_лес"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Овца"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Океан"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Паук"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Плавать"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ползать"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Прыгать"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пчела"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Рыба"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Скелет"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Собирать"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Спрут"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Стив"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Стив01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Стив02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Стрелять"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Телепортироваться"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Безобидное"/>
+        <Class IRI="#Действие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Биом"/>
+        <Class IRI="#Майнкрафт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Босс"/>
+        <Class IRI="#Моб"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Водянной"/>
+        <Class IRI="#Биом"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Враждебный"/>
+        <Class IRI="#Моб"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Действие"/>
+        <Class IRI="#Майнкрафт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Дружелюбный"/>
+        <Class IRI="#Моб"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Игрок"/>
+        <Class IRI="#Майнкрафт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Лесной"/>
+        <Class IRI="#Биом"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Моб"/>
+        <Class IRI="#Майнкрафт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Нуб"/>
+        <Class IRI="#Игрок"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Обидное"/>
+        <Class IRI="#Действие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Обычный"/>
+        <Class IRI="#Биом"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Опасный"/>
+        <Class IRI="#Биом"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Подземный"/>
+        <Class IRI="#Биом"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Про"/>
+        <Class IRI="#Игрок"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Снежный"/>
+        <Class IRI="#Биом"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Босс"/>
+        <Class IRI="#Дружелюбный"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Водянной"/>
+        <Class IRI="#Опасный"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Враждебный"/>
+        <Class IRI="#Дружелюбный"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Лесной"/>
+        <Class IRI="#Опасный"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Нуб"/>
+        <Class IRI="#Про"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Обычный"/>
+        <Class IRI="#Опасный"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Опасный"/>
+        <Class IRI="#Снежный"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Опасный"/>
+        <NamedIndividual IRI="#Ад"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Безобидное"/>
+        <NamedIndividual IRI="#Бегать"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Обидное"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Обидное"/>
+        <NamedIndividual IRI="#Взрываться"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Враждебный"/>
+        <NamedIndividual IRI="#Гаст"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Лесной"/>
+        <NamedIndividual IRI="#Джунгли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Подземный"/>
+        <NamedIndividual IRI="#Джунгли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Босс"/>
+        <NamedIndividual IRI="#Дракон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Враждебный"/>
+        <NamedIndividual IRI="#Ендермен"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Житель"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Лесной"/>
+        <NamedIndividual IRI="#Зимний_лес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Подземный"/>
+        <NamedIndividual IRI="#Зимний_лес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Снежный"/>
+        <NamedIndividual IRI="#Зимний_лес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Враждебный"/>
+        <NamedIndividual IRI="#Зомби"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Босс"/>
+        <NamedIndividual IRI="#Иссушитель"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Корова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Опасный"/>
+        <NamedIndividual IRI="#Край"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Враждебный"/>
+        <NamedIndividual IRI="#Крипер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Курица"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Водянной"/>
+        <NamedIndividual IRI="#Ледник"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Снежный"/>
+        <NamedIndividual IRI="#Ледник"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Безобидное"/>
+        <NamedIndividual IRI="#Летать"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Лесной"/>
+        <NamedIndividual IRI="#Обычный_лес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Обычный"/>
+        <NamedIndividual IRI="#Обычный_лес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Подземный"/>
+        <NamedIndividual IRI="#Обычный_лес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Овца"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Водянной"/>
+        <NamedIndividual IRI="#Океан"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Враждебный"/>
+        <NamedIndividual IRI="#Паук"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Безобидное"/>
+        <NamedIndividual IRI="#Плавать"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Безобидное"/>
+        <NamedIndividual IRI="#Прыгать"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Пчела"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Рыба"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Враждебный"/>
+        <NamedIndividual IRI="#Скелет"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Безобидное"/>
+        <NamedIndividual IRI="#Собирать"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Дружелюбный"/>
+        <NamedIndividual IRI="#Спрут"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Нуб"/>
+        <NamedIndividual IRI="#Стив01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Про"/>
+        <NamedIndividual IRI="#Стив02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Обидное"/>
+        <NamedIndividual IRI="#Стрелять"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Гаст"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Гаст"/>
+        <NamedIndividual IRI="#Летать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Дракон"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Дракон"/>
+        <NamedIndividual IRI="#Летать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Ендермен"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Ендермен"/>
+        <NamedIndividual IRI="#Собирать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Ендермен"/>
+        <NamedIndividual IRI="#Телепортироваться"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Житель"/>
+        <NamedIndividual IRI="#Собирать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Зомби"/>
+        <NamedIndividual IRI="#Бегать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Зомби"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Иссушитель"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Иссушитель"/>
+        <NamedIndividual IRI="#Летать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Корова"/>
+        <NamedIndividual IRI="#Бегать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Крипер"/>
+        <NamedIndividual IRI="#Взрываться"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Курица"/>
+        <NamedIndividual IRI="#Бегать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Курица"/>
+        <NamedIndividual IRI="#Прыгать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Овца"/>
+        <NamedIndividual IRI="#Бегать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Паук"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Паук"/>
+        <NamedIndividual IRI="#Ползать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Паук"/>
+        <NamedIndividual IRI="#Прыгать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Пчела"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Пчела"/>
+        <NamedIndividual IRI="#Летать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Рыба"/>
+        <NamedIndividual IRI="#Плавать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Скелет"/>
+        <NamedIndividual IRI="#Прыгать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Скелет"/>
+        <NamedIndividual IRI="#Стрелять"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Спрут"/>
+        <NamedIndividual IRI="#Плавать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Стив"/>
+        <NamedIndividual IRI="#Бегать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Стив"/>
+        <NamedIndividual IRI="#Бить"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Стив"/>
+        <NamedIndividual IRI="#Плавать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Стив"/>
+        <NamedIndividual IRI="#Прыгать"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уметь"/>
+        <NamedIndividual IRI="#Стив"/>
+        <NamedIndividual IRI="#Сsобирать"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уметь_бить"/>
+        <NamedIndividual IRI="#Стив01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#Взорвать"/>
+        <ObjectProperty IRI="#МожетУбить"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Взорвать"/>
+        <ObjectProperty IRI="#МожетУбить"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Взорвать"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Уметь"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Взорвать"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#МожетУбить"/>
+            <Class IRI="#Босс"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Взорвать"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#МожетУбить"/>
+            <Class IRI="#Враждебный"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Уметь_бить"/>
+        <Class IRI="#Игрок"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Уметь_бить"/>
+        <Class IRI="#Моб"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Уметь_бить"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
